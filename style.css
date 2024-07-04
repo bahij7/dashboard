@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+
+    background: #3a3f50;
+    color: white;
+
+    font-family: 'Inter';
+
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+
+
+.side-bar{
+    width: 20%;
+    height: 100vh;
+
+    background: #1B2028;
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.side-bar .top{
+    width: 100%;
+    height: 80%;
+}
+
+.side-bar .top .logo{
+    width: 80%;
+    height: 12%;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.side-bar .top .logo img{
+    width: 30px;
+}
+
+
+.side-bar .top .links{
+    width: 80%;
+    height: 88%;
+    margin: 0 auto;
+    margin-top: 8%;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+}
+
+.side-bar .top .links a{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    font-size: 14px;
+    text-decoration: none;
+    color: #e1e1e1;
+
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px;
+    border-radius: 8px;
+}
+
+.side-bar .top .links a span{
+    font-size: 22px;
+}
+
+.side-bar .top .links .active{
+    font-weight: 500;
+
+    background: #3A6FF8;
+    color: white;
+}
+
+
+
+.side-bar .bottom{
+    width: 100%;
+    height: 20%;
+}
+
+.side-bar .bottom .actions{
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+}
+
+.side-bar .bottom .actions a{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    font-size: 14px;
+    text-decoration: none;
+    color: #e1e1e1;
+
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px;
+    border-radius: 8px;
+}
+
+
+
+.main{
+    width: 80%;
+    min-height: 100vh;
+}
