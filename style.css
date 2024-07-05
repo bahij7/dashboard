@@ -19,6 +19,9 @@ body{
     width: 20%;
     height: 100vh;
 
+    position: sticky;
+    top: 0;
+
     background: #1B2028;
 
     display: flex;
@@ -127,12 +130,16 @@ body{
 .main{
     width: 80%;
     min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
 }
 
 .header{
     width: 95%;
-    height: 10vh;
     margin: 0 auto;
+    margin-top: 1%;
 
 
     display: flex;
@@ -354,4 +361,66 @@ body{
 
 .card:last-child .bottom div:first-child span:last-child{
     color: #F46D22;
+}
+
+.main-content{
+    width: 95%;
+    height: 68vh;
+    margin: 0 auto;
+
+    display: flex;
+    gap: 30px;
+}
+
+.main-content .left{
+    width: 30%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.main-content .left .top{
+    width: 100%;
+    height: 30%;
+    background: #3A6FF8;
+    backface-visibility: 60%;
+    border-radius: 14px;
+}
+
+
+.main-content .left .bottom{
+    width: 100%;
+    height: 70%;
+    background: #1B2028;
+    border-radius: 14px;
+}
+
+.main-content .right{
+    width: 70%;
+    height: 100%;
+}
+
+.main-content .right{
+    width: 70%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.main-content .right .top{
+    width: 100%;
+    height: 70%;
+    border-radius: 14px;
+    background: #1B2028;
+}
+
+.main-content .right .bottom{
+    width: 100%;
+    height: 30%;
+    border-radius: 14px;
+    background: #1B2028;
 }
