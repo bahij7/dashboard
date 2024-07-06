@@ -394,7 +394,7 @@ body{
 
 
     box-sizing: border-box;
-    padding: 14px;
+    padding: 16px;
 }
 
 .main-content .left .top div:first-child{
@@ -457,7 +457,7 @@ body{
     flex-direction: column;
 
     box-sizing: border-box;
-    padding: 12px;
+    padding: 16px;
 }
 
 .main-content .left .bottom .head{
@@ -570,12 +570,12 @@ body{
 
 .main-content .right .top{
     width: 100%;
-    height: 70%;
+    height: 75%;
     border-radius: 14px;
     background: #1B2028;
 
     box-sizing: border-box;
-    padding: 12px;
+    padding: 16px;
 }
 
 .main-content .right .top .head{
@@ -636,7 +636,8 @@ body{
 }
 
 .main-content .right .top .main-head div div:last-child{
-    font-weight: 600;
+    font-weight: 700;
+    font-size: 16px;
 }
 
 
@@ -651,19 +652,68 @@ body{
 .main-content .right .top .main-head div:last-child span{
     padding: 4px 14px;
     border-radius: 20px;
+    border: 1px solid #31353F;
 }
+
+.main-content .right .top .body{
+    width: 100%;
+    height: 70%;
+    margin-top: 2%;
+
+    display: flex;
+    align-items: start;
+}
+
+.main-content .right .top .body .left{
+    width: 10%;
+    height: 80%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+
+    font-size: 12px;
+}
+
+.main-content .right .top .body .right{
+    width: 90%;
+    height: 100%;
+
+    font-size: 12px;
+}
+
+.main-content .right .top .body .right div:first-child{
+    width: 100%;
+    height: 95%;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.3);
+    background-image: url(assets/Graphs.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.main-content .right .top .body .right div:last-child{
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
 
 
 
 .main-content .right .bottom{
     width: 100%;
-    height: 30%;
+    height: 25%;
     border-radius: 14px;
     background: #1B2028;
 
     
     box-sizing: border-box;
-    padding: 12px;
+    padding: 16px;
 }
 
 .main-content .right .bottom .head{
@@ -691,7 +741,7 @@ body{
 .main-content .right .bottom .body{
     display: flex;
     flex-direction: column;
-    margin-top: 4%;
+    margin-top: 3%;
     gap: 10px;
 }
 
@@ -706,7 +756,7 @@ body{
 .main-content .right .bottom .body .body-body{
     display: flex;
     align-items: center;
-
+    font-size: 14px;
 }
 
 .main-content .right .bottom .body .coin{
